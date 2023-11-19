@@ -11,7 +11,6 @@ const Map = ( { setCoordinates, setBounds, coordinates, places, setChildClicked 
     const classes = useStyles();
     const isDesktop = useMediaQuery('(min-width:600px)');
 
-    
 
     return (
         
