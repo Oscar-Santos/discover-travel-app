@@ -4,7 +4,6 @@ import { Paper, Typography, useMediaQuery } from '@material-ui/core';
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import Rating from '@material-ui/lab/Rating';
 
-
 import useStyles from './styles.js';
 import mapStyles from './mapStyles'
 const Map = ( { setCoordinates, setBounds, coordinates, places, setChildClicked }) => {
@@ -56,7 +55,6 @@ const Map = ( { setCoordinates, setBounds, coordinates, places, setChildClicked 
                            </Paper> 
                         )
                     }
-
                    </div> 
                 ))}
             </GoogleMapReact>
