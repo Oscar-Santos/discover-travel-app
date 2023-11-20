@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+# DISCOVER TRAVEL APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview 🟣
+Discover your next adventure with the Discover Travel App. This convenient web application utilizes RapidAPI to seamlessly access information on restaurants, hotels, and attractions based on your location, powered by Google Maps API for geolocation. With just a few clicks, you can get recommendations on exciting places to eat, stay, and visit near you. The API keys are securely stored in environment variables, and the site was deployed on Netlify for a smooth user experience. Whether you're a habitual traveler or planning your next weekend getaway, Discover Travel App makes it easy to uncover hidden gems and create an itinerary unique to you.
 
-## Available Scripts
+![Screen Shot 2023-11-20 at 7 48 32 AM](https://github.com/Oscar-Santos/discover-travel-app/assets/83252572/7fee3fc0-a940-423e-b1b1-e024892a3cf7)
 
-In the project directory, you can run:
+![Screen Shot 2023-11-20 at 7 49 42 AM](https://github.com/Oscar-Santos/discover-travel-app/assets/83252572/ca2837d5-c6fe-441b-b533-96ae04165498)
 
-### `npm start`
+![Screen Shot 2023-11-20 at 7 50 17 AM](https://github.com/Oscar-Santos/discover-travel-app/assets/83252572/29f005c4-69a0-4b09-a407-c6e5ef0a50c2)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Languages🟣
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-ES2021-yellow?logo=javascript" />
+  </br>
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  </br>
+  <img src="https://img.shields.io/badge/HTML-<VERSION>-<COLOR>?logo=html5" />
+  </br>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools🟣
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-Integrated-brightgreen?logo=openai" /> 
+  </br>
+  <img src="https://img.shields.io/badge/Node.js-14.17.3-green?logo=node.js" /> 
+  </br>
+  <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
+  </br>
+  <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white" />
+  </br>
+</p>
 
-### `npm run build`
+## Endpoints🟣
+## RAPID API
+1)   #### Request
+`GET locations/v2/auto-complete`
+```json
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2)    #### Response
 
-### `npm run eject`
+```json
+{
+buCategory:"ATTRACTIONS"
+text:"eiffel tower tours and tickets paris"
+parentGeoDetails:
+__typename:"LocationSelection_LocationInformationV2"
+names:
+__typename:"LocationSelection_LocationNames"
+longOnlyHierarchyTypeaheadV2:"Ile-de-France, France"
+route:
+__typename:"Routing_Route"
+fragment:null
+page:"AttractionProductsFusion"
+url:"/Attraction_Products-g187147-d188151-Eiffel_Tower-Paris_Ile_de_France.html"
+nonCanonicalUrl:"/Attraction_Products-g187147-d188151-Eiffel_Tower-Paris_Ile_de_France.html?contentType=attraction_product&webVariant=AttractionProductsFusion"
+typedParams:
+__typename:"Routing_AttractionProductsFusionParameters"
+scopeType:"GEO"
+4:
+__typename:"Typeahead_QuerySuggestionItem"
+documentId:"d5b515c99b215bae8a302a8c95a5606a0"
+suggestionType:"template"
+buCategory:"ATTRACTIONS"
+text:"eiffel tower viewing deck tours and tickets las vegas"
+parentGeoDetails:
+__typename:"LocationSelection_LocationInformationV2"
+names:
+__typename:"LocationSelection_LocationNames"
+longOnlyHierarchyTypeaheadV2:"Nevada, United States"
+route:
+__typename:"Routing_Route"
+fragment:null
+page:"AttractionProductsFusion"
+url:"/Attraction_Products-g45963-d127002-Eiffel_Tower_Viewing_Deck-Las_Vegas_Nevada.html"
+nonCanonicalUrl:"/Attraction_Products-g45963-d127002-Eiffel_Tower_Viewing_Deck-Las_Vegas_Nevada.html?contentType=attraction_product&webVariant=AttractionProductsFusion"
+typedParams:
+__typename:"Routing_AttractionProductsFusionParameters"
+scopeType:"GEO"
+5:
+__typename:"Typeahead_RescueResultItem"
+documentId:"eiffel tower"
+text:"eiffel tower"
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Netlify Deployment Link🟣
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Vercel Link](https://discover-travel-app.netlify.app/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## App Link🟣
 
-## Learn More
+[React App Link](https://discover-travel-app.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
