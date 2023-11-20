@@ -24,10 +24,6 @@ Discover your next adventure with the Discover Travel App. This convenient web a
 
 ## Tools🟣
 <p>
-  <img src="https://img.shields.io/badge/OpenAI-Integrated-brightgreen?logo=openai" /> 
-  </br>
-  <img src="https://img.shields.io/badge/Node.js-14.17.3-green?logo=node.js" /> 
-  </br>
   <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
   </br>
   <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white" />
