@@ -38,9 +38,7 @@ Whether you're a habitual traveler or planning your next weekend getaway, Discov
 ## RAPID API Endpoints🟣
 1)   #### Request
 `GET locations/v2/auto-complete`
-```json
 
-```
 2)    #### Response
 
 ```json
