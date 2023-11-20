@@ -2,7 +2,12 @@
 # DISCOVER TRAVEL APP
 
 ## Overview 🟣
-Discover your next adventure with the Discover Travel App. This convenient web application utilizes RapidAPI to seamlessly access information on restaurants, hotels, and attractions based on your location, powered by Google Maps API for geolocation. With just a few clicks, you can get recommendations on exciting places to eat, stay, and visit near you. The API keys are securely stored in environment variables, and the site was deployed on Netlify for a smooth user experience. Whether you're a habitual traveler or planning your next weekend getaway, Discover Travel App makes it easy to uncover hidden gems and create an itinerary unique to you.
+
+Discover your next adventure with the Discover Travel App. This convenient web application utilizes RapidAPI to seamlessly access information on restaurants, hotels, and attractions based on your location, powered by the Google Maps Javascript API for geolocation. Simply type in any location in the search bar to find recommendations around the world.
+
+With just a few clicks, you can get exciting recommendations on places to eat, stay, and visit near you. The app was built using secure practices - API keys are stored in environment variables, and the site was deployed on Netlify for a smooth user experience.
+
+Whether you're a habitual traveler or planning your next weekend getaway, Discover Travel App makes it easy to uncover hidden gems and create a custom itinerary. So sit back, click around, and let Discover Travel App be your guide to exploration and new experiences.
 
 ![Screen Shot 2023-11-20 at 7 48 32 AM](https://github.com/Oscar-Santos/discover-travel-app/assets/83252572/7fee3fc0-a940-423e-b1b1-e024892a3cf7)
 
@@ -30,15 +35,12 @@ Discover your next adventure with the Discover Travel App. This convenient web a
   </br>
 </p>
 
-## Endpoints🟣
-## RAPID API
+## RAPID API Endpoints🟣
 1)   #### Request
 `GET locations/v2/auto-complete`
 ```json
 
-
 ```
-
 2)    #### Response
 
 ```json
@@ -87,9 +89,38 @@ text:"eiffel tower"
 
 ```
 
+## GOOGLE MAPS JAVASCRIPT API Endpoints🟣
+1)   #### Request
+`GET https://maps.googleapis.com/maps/api/place/autocomplete/json?input=eiffeltower`
+
+2)    #### Response
+
+```json
+{
+  "predictions": [
+    {
+      "place_id": "ChIJE9on3F3u5kcRYJSMaMOCCwQ", 
+      "structured_formatting": {
+        "main_text": "Eiffel Tower",
+        "secondary_text": "Paris, France"
+      }
+    },
+    {  
+      "place_id": "ChIJQTETgjHz3IARdNT_qUDngVg",
+      "structured_formatting": {
+        "main_text": "Eiffel Tower Viewing Deck",
+        "secondary_text": "Las Vegas, NV, USA"
+      }
+    }
+  ],
+  "status": "OK"
+}
+
+```
+
 ## Netlify Deployment Link🟣
 
-[Vercel Link](https://discover-travel-app.netlify.app/)
+[Netlify Link](https://discover-travel-app.netlify.app/)
 
 ## App Link🟣
 
