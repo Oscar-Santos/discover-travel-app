@@ -35,7 +35,7 @@ Whether you're a habitual traveler or planning your next weekend getaway, Discov
   </br>
 </p>
 
-## RAPID API Endpoints🟣
+## Rapid API Endpoints🟣
 1)   #### Request
 `GET locations/v2/auto-complete`
 
@@ -87,7 +87,7 @@ text:"eiffel tower"
 
 ```
 
-## GOOGLE MAPS JAVASCRIPT API Endpoints🟣
+## Google Maps Javascript API Endpoints🟣
 1)   #### Request
 `GET https://maps.googleapis.com/maps/api/place/autocomplete/json?input=eiffeltower`
 
