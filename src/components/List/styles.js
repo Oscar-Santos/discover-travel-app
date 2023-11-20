@@ -12,6 +12,7 @@ export default makeStyles((theme) => ({
   },
   container: {
     padding: '25px',
+    color: 'purple'
   },
   marginBottom: {
     marginBottom: '30px',
